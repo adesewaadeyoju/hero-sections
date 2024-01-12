@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 128px 0;
+}
+
+nav > h2 {
+    font-size: 24px;
+    color: #1E0E62;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.nav-list > a, .signin_btn {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.list-icon{
+    width: 15px;
+    height: auto;
+}
+.navbutton {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navbutton > .secondary_btn {
+    padding: 7px 22px;
+}
+
+.secondary_btn {
+    color: white;
+    background-color: #25DAC5;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+header > h1 {
+    font-size: 72px;
+    color: #1E0E62;
+}
+
+header > p {
+    max-width: 582px;
+    font-size: 22px;
+    color: rgba(21, 20, 57, 0.4);
+    margin: 37px 0px 79px;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+header > div > a:first-child {
+    padding: 17px 41px;
+}
+
+header > div > a:last-child {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #25DAC5;
+}

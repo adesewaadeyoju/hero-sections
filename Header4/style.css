@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 80px;
+    margin: 40px 80px;
 
     ul{
         display: flex;
@@ -23,6 +23,7 @@ nav{
         font-size: 28px;
         font-weight: 700;
     }
+    
     a{
         list-style: none;
         text-decoration: none;
@@ -53,6 +54,6 @@ header{
 
     img{
         max-width: 650px;
-        height: 350px;
+        height: auto;
     }
 }
